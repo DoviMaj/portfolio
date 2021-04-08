@@ -13,6 +13,7 @@ const projects = [
       "node-dot-js",
       "express",
       "mongodb",
+      "snyk",
       "socket-dot-io",
     ],
   },
