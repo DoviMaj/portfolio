@@ -6,7 +6,7 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
   return (
     <div className={styles.card}>
       <h3>
-        <a target="_blank" href={live_url}>
+        <a rel="noopener" target="_blank" href={live_url}>
           {title}{" "}
         </a>
         &rarr;
@@ -26,10 +26,20 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
       </div>
 
       <div className={styles.card_footer}>
-        <a target="_blank" className={styles.link_button} href={code_url}>
+        <a
+          rel="noopener"
+          target="_blank"
+          className={styles.link_button}
+          href={code_url}
+        >
           Code
         </a>
-        <a target="_blank" className={styles.link_button} href={live_url}>
+        <a
+          rel="noopener"
+          target="_blank"
+          className={styles.link_button}
+          href={live_url}
+        >
           Live
         </a>
       </div>
