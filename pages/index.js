@@ -32,6 +32,26 @@ export default function Home() {
           </a>
           .
         </p>
+
+        <code className={styles.code}>Here are some of my projects:</code>
+        <div className={styles.grid}>
+          {projects.map(
+            ({ live_url, code_url, description, title, tech }, index) => (
+              <ProjectCard
+                key={index}
+                live_url={live_url}
+                code_url={code_url}
+                description={description}
+                title={title}
+                tech={tech}
+              />
+            )
+          )}
+        </div>
+      </main>
+
+      <footer className={styles.footer}>
+        {" "}
         <div className={styles.social}>
           <a rel="noopener" href="https://github.com/dovimaj/" target="_blank">
             <Image
@@ -66,33 +86,6 @@ export default function Home() {
             ></Image>
           </a>
         </div>
-        <code className={styles.code}>Here are some of my projects:</code>
-        <div className={styles.grid}>
-          {projects.map(
-            ({ live_url, code_url, description, title, tech }, index) => (
-              <ProjectCard
-                key={index}
-                live_url={live_url}
-                code_url={code_url}
-                description={description}
-                title={title}
-                tech={tech}
-              />
-            )
-          )}
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
       </footer>
     </div>
   );
