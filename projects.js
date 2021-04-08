@@ -13,7 +13,7 @@ const projects = [
       "node-dot-js",
       "express",
       "mongodb",
-      "snyk",
+      "amazonaws",
       "socket-dot-io",
     ],
   },
@@ -22,12 +22,14 @@ const projects = [
     live_url: "https://blog-client-dovimaj.vercel.app/",
     code_url: "https://github.com/DoviMaj/blog-client",
     description:
-      "Owners can edit posts when authenticated, users can comment, data is synced with MongoDB through REST API.",
+      "Blazing fast with Next.js pre-rendered pages. Owners can edit posts when authenticated, users can comment.",
     tech: [
+      "react",
       "next-dot-js",
       "typescript",
       "bootstrap",
       "sass",
+      "node-dot-js",
       "express",
       "mongodb",
     ],
@@ -55,7 +57,7 @@ const projects = [
     code_url: "https://github.com/DoviMaj/battleship",
     description:
       "Made to practice TDD (Test Driven Development) principles with Jest and VanillaJS.",
-    tech: ["javascript", "jest"],
+    tech: ["javascript", "jest", "webpack"],
   },
   {
     title: "Shopping-cart",
