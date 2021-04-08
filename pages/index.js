@@ -43,6 +43,13 @@ export default function Home() {
           >
             <Image src="/linkedin.svg" alt="me" width="34" height="34"></Image>
           </a>
+          <a
+            rel="noopener"
+            href="mailto:dovimajowka@gmail.com?subject=I want to hire you!&body=Hi, I saw your portfolio and..."
+            target="_blank"
+          >
+            <Image src="/gmail.svg" alt="me" width="34" height="34"></Image>
+          </a>
         </div>
         <code className={styles.code}>Here are some of my projects:</code>
         <div className={styles.grid}>
