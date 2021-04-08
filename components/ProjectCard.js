@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/ProjectCard.module.css";
+import Image from "next/image";
 
-const ProjectCard = ({ title, live_url, code_url, description }) => {
+const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
   return (
-    <p className={styles.card}>
+    <div className={styles.card}>
       <h3>
         <a target="_blank" href={live_url}>
           {title}{" "}
@@ -11,6 +12,19 @@ const ProjectCard = ({ title, live_url, code_url, description }) => {
         &rarr;
       </h3>
       <p>{description} </p>
+      <div className={styles.tech_wrapper}>
+        {tech &&
+          tech.map((tech) => (
+            <Image
+              src={`/${tech}.svg`}
+              alt="me"
+              width="24"
+              height="24"
+              // {`https://img.shields.io/badge/-${tech}-white?style=flat-square&logo=${tech}`}
+            ></Image>
+          ))}
+      </div>
+
       <div className={styles.card_footer}>
         <a target="_blank" className={styles.link_button} href={code_url}>
           Code
@@ -19,7 +33,7 @@ const ProjectCard = ({ title, live_url, code_url, description }) => {
           Live
         </a>
       </div>
-    </p>
+    </div>
   );
 };
 
