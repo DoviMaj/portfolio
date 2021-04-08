@@ -18,7 +18,7 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
             <Image
               key={i}
               src={`/${tech}.svg`}
-              alt="me"
+              alt={`${tech} icon`}
               width="24"
               height="24"
             ></Image>

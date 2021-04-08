@@ -34,21 +34,36 @@ export default function Home() {
         </p>
         <div className={styles.social}>
           <a rel="noopener" href="https://github.com/dovimaj/" target="_blank">
-            <Image src="/github.svg" alt="me" width="34" height="34"></Image>
+            <Image
+              src="/github.svg"
+              alt="github icon"
+              width="34"
+              height="34"
+            ></Image>
           </a>
           <a
             rel="noopener"
-            href="https://linkedin.com/in/dovid-majowka-8472a0126"
+            href="https://linkedin.com/in/dovid-majowka"
             target="_blank"
           >
-            <Image src="/linkedin.svg" alt="me" width="34" height="34"></Image>
+            <Image
+              src="/linkedin.svg"
+              alt="linkedin icon"
+              width="34"
+              height="34"
+            ></Image>
           </a>
           <a
             rel="noopener"
             href="mailto:dovimajowka@gmail.com?subject=I want to hire you!&body=Hi, I saw your portfolio and..."
             target="_blank"
           >
-            <Image src="/gmail.svg" alt="me" width="34" height="34"></Image>
+            <Image
+              src="/gmail.svg"
+              alt="email icon"
+              width="34"
+              height="34"
+            ></Image>
           </a>
         </div>
         <code className={styles.code}>Here are some of my projects:</code>
