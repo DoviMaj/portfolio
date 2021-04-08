@@ -44,7 +44,8 @@
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.link_button:hover {
+.link_button:hover,
+.link_button:visited {
   text-decoration: none;
   color: #0070f3;
   background: white;
