@@ -39,7 +39,15 @@
   background: #0070f3;
   color: white;
   padding: 0.4em 1.5em;
+  border: 1px solid #0070f3;
   border-radius: 20px;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link_button:hover {
+  text-decoration: none;
+  color: #0070f3;
+  background: white;
 }
 
 .tech_wrapper {
