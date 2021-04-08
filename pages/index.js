@@ -13,15 +13,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi 👋, im{" "}
+          Hi 👋, I'm{" "}
           <a target="_blank" href="https://github.com/DoviMaj">
             David Majowka!
           </a>
         </h1>
         <p className={styles.description}>
           A passionate self-taught full-stack web developer, <br></br>I love
-          learning new technologies and improving UI's.<br></br> Regular
-          contributor to{" "}
+          learning new technologies, building and improving UI's.<br></br>{" "}
+          Regular contributor to{" "}
           <a href="https://github.com/TheOdinProject/" target="_blank">
             TheOdinProject
           </a>
