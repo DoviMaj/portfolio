@@ -14,13 +14,13 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
       <p>{description} </p>
       <div className={styles.tech_wrapper}>
         {tech &&
-          tech.map((tech) => (
+          tech.map((tech, i) => (
             <Image
+              key={i}
               src={`/${tech}.svg`}
               alt="me"
               width="24"
               height="24"
-              // {`https://img.shields.io/badge/-${tech}-white?style=flat-square&logo=${tech}`}
             ></Image>
           ))}
       </div>
