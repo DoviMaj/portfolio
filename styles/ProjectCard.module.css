@@ -46,8 +46,7 @@
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.link_button:hover,
-.link_button:visited {
+.link_button:hover {
   text-decoration: none;
   color: #0070f3;
   background: white;
@@ -55,7 +54,10 @@
 
 .tech_wrapper {
   margin: 1em 0;
-  display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+  grid-gap: 3px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  justify-content: flex-start;
 }
