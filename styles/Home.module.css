@@ -102,11 +102,10 @@
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-auto-flow: column;
   grid-gap: 20px;
+  grid-template-columns: repeat(3, 2fr);
   margin: 0 0 1em 0;
 }
 
