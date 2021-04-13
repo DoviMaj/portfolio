@@ -149,3 +149,7 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
+.footer a:hover {
+  transform: scale(1.1);
+}
