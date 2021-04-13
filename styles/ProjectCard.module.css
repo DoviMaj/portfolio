@@ -61,7 +61,3 @@
   gap: 10px;
   justify-content: flex-start;
 }
-
-.tech_wrapper a:hover {
-  transform: scale(1.1);
-}

@@ -1,28 +1,71 @@
 const tech = {
-  react: { name: "react", url: "https://reactjs.org/" },
-  reactrouter: { name: "reactrouter", url: "https://reactrouter.com/" },
-  typescript: { name: "typescript", url: "https://www.typescriptlang.org/" },
-  sass: { name: "sass", url: "https://sass-lang.com/" },
-  node_dot_js: { name: "node-dot-js", url: "https://nodejs.org/en/" },
-  express: { name: "express", url: "https://expressjs.com/" },
-  mongodb: { name: "mongodb", url: "https://www.mongodb.com/" },
-  amazonaws: { name: "amazonaws", url: "https://aws.amazon.com/s3/" },
-  socket_dot_io: { name: "socket-dot-io", url: "https://socket.io/" },
-  bootstrap: { name: "bootstrap", url: "https://getbootstrap.com/" },
-  next_dot_js: { name: "next-dot-js", url: "https://nextjs.org/" },
+  react: { name: "react", url: "https://reactjs.org/", tooltip: "React" },
+  reactrouter: {
+    name: "reactrouter",
+    url: "https://reactrouter.com/",
+    tooltip: "React Router",
+  },
+  typescript: {
+    name: "typescript",
+    url: "https://www.typescriptlang.org/",
+    tooltip: "TypeScript",
+  },
+  sass: { name: "sass", url: "https://sass-lang.com/", tooltip: "Sass" },
+  node_dot_js: {
+    name: "node-dot-js",
+    url: "https://nodejs.org/en/",
+    tooltip: "NodeJS",
+  },
+  express: {
+    name: "express",
+    url: "https://expressjs.com/",
+    tooltip: "Express.js",
+  },
+  mongodb: {
+    name: "mongodb",
+    url: "https://www.mongodb.com/",
+    tooltip: "MongoDB",
+  },
+  amazonaws: {
+    name: "amazonaws",
+    url: "https://aws.amazon.com/s3/",
+    tooltip: "AWS S3",
+  },
+  socket_dot_io: {
+    name: "socket-dot-io",
+    url: "https://socket.io/",
+    tooltip: "Socket.io",
+  },
+  bootstrap: {
+    name: "bootstrap",
+    url: "https://getbootstrap.com/",
+    tooltip: "Bootsrap",
+  },
+  next_dot_js: {
+    name: "next-dot-js",
+    url: "https://nextjs.org/",
+    tooltip: "Next.js",
+  },
   firebase: {
     name: "firebase",
     url: "https://firebase.google.com/",
+    tooltip: "Firebase",
   },
   google: {
     name: "google",
     url: "https://firebase.google.com/docs/auth/android/google-signin",
+    tooltip: "Firebase Google Auth",
   },
-  webpack: { name: "webpack", url: "https://webpack.js.org/" },
-  jest: { name: "jest", url: "https://jestjs.io/" },
+  webpack: {
+    name: "webpack",
+    url: "https://webpack.js.org/",
+    tooltip: "Webpack",
+  },
+  jest: { name: "jest", url: "https://jestjs.io/", tooltip: "Jest" },
   javascript: {
     name: "javascript",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    tooltip: "JavaScript",
   },
 };
 

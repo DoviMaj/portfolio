@@ -1,0 +1,22 @@
+.icon {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  font-size: small;
+  transition: 0.2s ease;
+  white-space: nowrap;
+  position: absolute;
+  top: -30px;
+  left: -16px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.993);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/ProjectCard.module.css";
-import Image from "next/image";
+import TechIcon from "./TechIcon";
 
 const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
   return (
@@ -13,17 +13,7 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
       </h3>
       <p>{description} </p>
       <div className={styles.tech_wrapper}>
-        {tech &&
-          tech.map((tech, i) => (
-            <a href={tech.url} key={i} rel="noopener" target="_blank">
-              <Image
-                src={`/${tech.name}.svg`}
-                alt={`${tech.name} icon`}
-                width="24"
-                height="24"
-              ></Image>
-            </a>
-          ))}
+        {tech && tech.map((tech, i) => <TechIcon key={i} tech={tech} />)}
       </div>
 
       <div className={styles.card_footer}>
