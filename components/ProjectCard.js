@@ -3,7 +3,6 @@ import styles from "../styles/ProjectCard.module.css";
 import Image from "next/image";
 
 const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
-  console.log(tech);
   return (
     <div className={styles.card}>
       <h3>
