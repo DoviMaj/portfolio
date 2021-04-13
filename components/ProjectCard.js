@@ -3,6 +3,7 @@ import styles from "../styles/ProjectCard.module.css";
 import Image from "next/image";
 
 const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
+  console.log(tech);
   return (
     <div className={styles.card}>
       <h3>
@@ -15,13 +16,14 @@ const ProjectCard = ({ title, live_url, code_url, description, tech }) => {
       <div className={styles.tech_wrapper}>
         {tech &&
           tech.map((tech, i) => (
-            <Image
-              key={i}
-              src={`/${tech}.svg`}
-              alt={`${tech} icon`}
-              width="24"
-              height="24"
-            ></Image>
+            <a href={tech.url} key={i} rel="noopener" target="_blank">
+              <Image
+                src={`/${tech.name}.svg`}
+                alt={`${tech.name} icon`}
+                width="24"
+                height="24"
+              ></Image>
+            </a>
           ))}
       </div>
 
