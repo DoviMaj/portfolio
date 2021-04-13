@@ -5,7 +5,6 @@
 
 .tooltip {
   font-size: small;
-  transition: 0.2s ease;
   white-space: nowrap;
   position: absolute;
   top: -30px;
