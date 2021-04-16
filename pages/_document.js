@@ -10,9 +10,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>David Majowka | Portfolio</title>
-          <link rel="icon" href="/favicon.ico" />
-
           {/* Primary Meta Tags  */}
 
           <meta name="title" content="David Majowka | Portfolio"></meta>
@@ -25,7 +22,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="David Majowka | Portfolio"></meta>
           <meta
             name="twitter:description"
-            content="Full-stack Web Developer"
+            content="Full-stack Web Developer."
           ></meta>
           <meta
             name="twitter:image"
