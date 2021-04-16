@@ -8,7 +8,21 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>David Majowka</title>
+        <title>David Majowka | Portfolio</title>
+        <meta property="og:title" content="David Majowka | Portfolio"></meta>
+        <meta
+          property="og:description"
+          name="description"
+          content="Full-stack Web Developer Portfolio"
+        ></meta>
+        <meta
+          property="og:url"
+          content="http://portfolio-dovimaj.vercel.app/"
+        ></meta>
+        <meta
+          property="og:image"
+          content="https://fakebook-29149.s3.us-east-2.amazonaws.com/images/1618574420444.png"
+        ></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

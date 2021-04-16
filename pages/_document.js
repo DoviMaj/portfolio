@@ -9,9 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <meta name="description" content="David Majowka's Portfolio"></meta>
-        </Head>
+        <Head />
 
         <body>
           <Main />
