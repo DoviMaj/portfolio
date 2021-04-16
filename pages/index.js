@@ -9,19 +9,18 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>David Majowka | Portfolio</title>
-        <meta name="twitter:card" content="summary_large_image">
-          <meta name="twitter:site" content="@DMajowka"></meta>
-          <meta name="twitter:creator" content="@DMajowka"></meta>
-          <meta name="twitter:title" content="David Majowka | Portfolio"></meta>
-          <meta
-            name="twitter:description"
-            content="Full-stack Web Developer"
-          ></meta>
-          <meta
-            name="twitter:image"
-            content="https://fakebook-29149.s3.us-east-2.amazonaws.com/images/1618574420444.png"
-          ></meta>
-        </meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:site" content="@DMajowka"></meta>
+        <meta name="twitter:creator" content="@DMajowka"></meta>
+        <meta name="twitter:title" content="David Majowka | Portfolio"></meta>
+        <meta
+          name="twitter:description"
+          content="Full-stack Web Developer"
+        ></meta>
+        <meta
+          name="twitter:image"
+          content="https://fakebook-29149.s3.us-east-2.amazonaws.com/images/1618574420444.png"
+        ></meta>
         <meta property="og:title" content="David Majowka | Portfolio"></meta>
         <meta
           property="og:description"
