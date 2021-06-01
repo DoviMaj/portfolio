@@ -5,11 +5,13 @@ import styles from "../styles/TechIcon.module.css";
 const TechIcon = ({ tech }) => {
   const [displayTooltip, setDisplayTooltip] = useState(false);
 
+  const toggleTooltip = () => setDisplayTooltip(!displayTooltip);
+
   return (
     <div
       className={styles.icon}
-      onMouseEnter={() => setDisplayTooltip(true)}
-      onMouseLeave={() => setDisplayTooltip(false)}
+      onMouseEnter={toggleTooltip}
+      onMouseLeave={toggleTooltip}
     >
       <a href={tech.url} rel="noopener" target="_blank">
         <Image
