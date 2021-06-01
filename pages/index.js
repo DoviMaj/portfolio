@@ -16,7 +16,7 @@ export default function Home() {
             </a>
           </h1>
           <p className={styles.description}>
-            A passionate self-taught full-stack web developer, <br></br>I love
+            A passionate self-taught Full Stack Web Developer, <br></br>I love
             learning new technologies, building and improving UI's.<br></br>{" "}
             Regular contributor to{" "}
             <a
@@ -44,6 +44,15 @@ export default function Home() {
               )
             )}
           </div>
+
+          <a
+            rel="noopener"
+            href="mailto:dovimajowka@gmail.com?subject=I want to hire you!&body=Hi, I saw your portfolio and..."
+            target="_blank"
+            className={styles.button}
+          >
+            Hire me!
+          </a>
         </main>
 
         <footer className={styles.footer}>
