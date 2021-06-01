@@ -82,14 +82,10 @@ export default function Home() {
                 height="34"
               ></Image>
             </a>
-            <a
-              rel="noopener"
-              href="mailto:dovimajowka@gmail.com?subject=I want to hire you!&body=Hi, I saw your portfolio and..."
-              target="_blank"
-            >
+            <a rel="noopener" href="https://wa.me/972587286168" target="_blank">
               <Image
-                src="/gmail.svg"
-                alt="email icon"
+                src="/whatsapp.svg"
+                alt="whatsapp icon"
                 width="34"
                 height="34"
               ></Image>
