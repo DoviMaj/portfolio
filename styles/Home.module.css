@@ -120,6 +120,7 @@
 }
 
 .button {
+  word-break: keep-all;
   cursor: pointer;
   background: #0070f3;
   color: white;
