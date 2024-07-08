@@ -12,7 +12,7 @@ export default function Home() {
           <h1 className={styles.title}>
             Hi 👋, I'm{" "}
             <a rel="noopener" target="_blank" href="https://github.com/DoviMaj">
-              David Majowka!
+              Dovid Majowka!
             </a>
           </h1>
           <p className={styles.description}>
